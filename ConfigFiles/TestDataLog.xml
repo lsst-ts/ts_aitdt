@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>13.0.1f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>TestDataLog</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Log Directory</Name>
+<Val>C:\Users\Public\Documents\IATDTData\TestData</Val>
+</Path>
+<String>
+<Name>Log Filename Base</Name>
+<Val>IATDTInputData</Val>
+</String>
+<U32>
+<Name>Max records per file</Name>
+<Val>20000</Val>
+</U32>
+<String>
+<Name>Comment</Name>
+<Val>Test data log</Val>
+</String>
+</Cluster>
+</LvVariant>
+</LVData>

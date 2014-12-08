@@ -1,0 +1,131 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>13.0.1f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>TestParameters</Name>
+<NumElts>7</NumElts>
+<U32>
+<Name>Number of cycles for complete test</Name>
+<Val>1</Val>
+</U32>
+<Cluster>
+<Name>Cycle profile</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Temperature Setpoint</Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>274.14999999999998</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>278.14999999999998</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>283.14999999999998</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>293.14999999999998</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Soak Time</Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Gain Stabilization Time</Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Array>
+<Array>
+<Name>Pause After Step</Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Array>
+</Cluster>
+<Array>
+<Name>PGA Gain Coefficients</Name>
+<Dimsize>3</Dimsize>
+<U8>
+<Name>PGA Gain Coefficient</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>PGA Gain Coefficient</Name>
+<Val>2</Val>
+</U8>
+<U8>
+<Name>PGA Gain Coefficient</Name>
+<Val>3</Val>
+</U8>
+</Array>
+<DBL>
+<Name>Temperature Transition Wait Time</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Temperature Settled StDev</Name>
+<Val>273.17399999999998</Val>
+</DBL>
+<U16>
+<Name>Temperature Settling Sample Size</Name>
+<Val>100</Val>
+</U16>
+<U16>
+<Name>Bridge Measurement Sample Size</Name>
+<Val>100</Val>
+</U16>
+</Cluster>
+</LvVariant>
+</LVData>
